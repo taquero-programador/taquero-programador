@@ -1,7 +1,7 @@
 ### Hi there 👋, my name is JR's
 
 
-Skills: Python / SQL / Docker / Linux / HTML / CSS / Vim / SSH
+Skills: Python / SQL / FastAPI / Docker / Linux / HTML / CSS / Vim / SSH
 
  
 
