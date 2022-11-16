@@ -9,5 +9,4 @@ Skills: Python / SQL / FastAPI / Pandas / Docker / Nginx / Linux / HTML / CSS / 
 
 ![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=taquero-programador)  
 
-![GitHub streak stats](https://github-readme-streak-stats.herokuapp.com/?user=taquero-programador)  
-
+![GitHub Streak](https://streak-stats.demolab.com?user=taquero-programador&theme=github-dark&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
