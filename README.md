@@ -5,7 +5,7 @@ Skills: Python / SQL / FastAPI / Pandas / Docker / Nginx / Linux / HTML / CSS / 
 
  
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=taquero-programador&show_icons=true&theme=vue-dark)  
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=taquero-programador&show_icons=true&theme=github_dark)  
 
 ![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=taquero-programador)  
 
