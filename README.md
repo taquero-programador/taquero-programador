@@ -1,7 +1,7 @@
 ### Hi there 👋, my name is JR's
 
 
-Skills: Python / SQL / Bash / Docker / Nginx / Linux / HTML / CSS / Vim / SSH / Power BI
+Skills: Python / SQL / Bash / Docker / Nginx / Linux / HTML / CSS / Vim / SSH / Power BI / R
 
  
 
