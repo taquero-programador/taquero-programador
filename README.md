@@ -4,4 +4,4 @@
 Skills: Python / SQL / Bash / Docker / Nginx / Linux / HTML / CSS / Vim / SSH / Power BI / R
 
  
-![GitHub Streak](https://streak-stats.demolab.com?user=taquero-programador&theme=github-dark&date_format=M%20j%5B%2C%20Y%5D)
+![GitHub Streak](https://raw.githubusercontent.com/taquero-programador/taquero-programador/main/streak-stats.svg)

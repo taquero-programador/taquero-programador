@@ -1,0 +1,26 @@
+name: GitHub Streak Stats
+
+on:
+  schedule:
+    - cron: "0 21 * * *"  # 3:00 PM hora México (UTC-6)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-streak:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate Streak Stats
+        uses: DenverCoder1/github-readme-streak-stats@master
+        with:
+          user_id: 41521299
+          theme: github-dark
+          date_format: "M%20j%2C%20Y"
+
+      - name: Commit and push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update streak stats"
+          file_pattern: "*.svg"
