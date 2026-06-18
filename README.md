@@ -6,10 +6,9 @@
     <img src="https://github.com/taquero-programador/taquero-programador/actions/workflows/streak.yml/badge.svg"/>
 </p>
 
-[![Update streak stats](https://github.com/taquero-programador/taquero-programador/actions/workflows/streak.yml/badge.svg)](https://github.com/taquero-programador/taquero-programador/actions/workflows/streak.yml)
-
-
+<p align=center>
 Skills: Python / SQL / Bash / Docker / Nginx / Linux / HTML / CSS / Vim / SSH / Power BI / R
+</p>
 
  <p align=center>
   <a href="github.com/taquero-programador"><img src="./profile/streak.svg" alt="GitHub Streak" /></a>
