@@ -19,8 +19,8 @@ jobs:
       - name: Generate streak stats
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
-          options: user={{ github.repository_owner }}&theme=github-dark&date_format=M%20j%2C%20Y
-          #options: user=taquero-programador&theme=github-dark&date_format=M%20j%2C%20Y
+          #options: user={{ github.repository_owner }}&theme=github-dark&date_format=M%20j%2C%20Y
+          options: user=taquero-programador&theme=github-dark&date_format=M%20j%2C%20Y
           path: profile/streak.svg
           token: ${{ secrets.STREAK_TOKEN }}
 
