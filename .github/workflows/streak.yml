@@ -19,14 +19,15 @@ jobs:
       - name: Generate streak stats
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
-          options: user=taquero-programador&theme=github-dark&date_format=M%20j%2C%20Y
+          options: user={{ github.repository_owner }}&theme=github-dark&date_format=M%20j%2C%20Y
+          #options: user=taquero-programador&theme=github-dark&date_format=M%20j%2C%20Y
           path: profile/streak.svg
           token: ${{ secrets.STREAK_TOKEN }}
 
       - name: Commit streak stats
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "41521299+github-actions[bot]@users.noreply.github.com"
           git add profile/streak.svg
           
           if [[ -z $(git status --porcelain) ]]; then
