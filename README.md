@@ -6,5 +6,6 @@
 
 Skills: Python / SQL / Bash / Docker / Nginx / Linux / HTML / CSS / Vim / SSH / Power BI / R
 
- 
+ <center>
 ![GitHub Streak](https://raw.githubusercontent.com/taquero-programador/taquero-programador/main/profile/streak.svg)
+ </center>
