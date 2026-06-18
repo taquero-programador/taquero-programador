@@ -29,7 +29,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/streak.svg
           
-          if [[ -n $(git status --porcelain) ]]; then
+          if [[ -z $(git status --porcelain) ]]; then
             echo "Sin cambios, no hay nada que hace."
           else
             git commit -m "Update streak stats"
