@@ -33,6 +33,6 @@ jobs:
             echo "Sin cambios, no hay nada que hace."
           else
             git commit -m "Update streak stats"
-            #git pull --rebase origin main
+            git pull --rebase origin main
             git push origin main
           fi
