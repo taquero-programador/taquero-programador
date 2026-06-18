@@ -28,7 +28,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/streak.svg
-          if git diff --staged --quite; then
+          
+          if [[ -n $(git status --porcelain) ]]; then
             echo "Sin cambios, no hay nada que hace."
           else
             git commit -m "Update streak stats"
