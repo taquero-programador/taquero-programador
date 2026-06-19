@@ -31,7 +31,7 @@ jobs:
           git add profile/streak.svg
           
           if [[ -z $(git status --porcelain) ]]; then
-            echo "Sin cambios, no hay nada que hace."
+            echo "Sin cambios, no hay nada que hacer."
           else
             git commit -m "Update streak stats SVG"
             git pull --rebase origin main
